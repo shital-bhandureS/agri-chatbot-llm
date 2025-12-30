@@ -19,7 +19,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "system",
-            "content": "You are an expert agriculture advisor for Indian farming."
+            "content": "You are an expert agriculture assistant.Only answer questions related to agriculture. If asked unrelated questions, reply: 'I can only answer agriculture-related questions.'"
         }
     ]
 
